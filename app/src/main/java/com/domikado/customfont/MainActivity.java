@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
         tv1=(TextView)findViewById(R.id.text);
 
+        String font = "SEASRN__.ttf";
 
-
-        Typeface face= Typeface.createFromAsset(getAssets(), "SEASRN__.ttf");
+        Typeface face= Typeface.createFromAsset(getAssets(), font);
         tv1.setTypeface(face);
     }
 }
